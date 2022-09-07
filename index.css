@@ -1,0 +1,71 @@
+
+#body{
+    background-color: #EDECFE;
+}
+.greetings {
+    font-family: 'Inika';
+    font-size: 50px;
+}
+.myName {
+    font-family: 'Inspiration', cursive;
+    font-size: 100px;
+    font-weight: 500;
+}
+.career {
+    font-family: 'Inika';
+    font-size: 35px;
+    color: #817FCB;
+    font-weight: 800;
+}
+.header {
+    font-family: 'Inika';
+    font-size: 22px;
+    color: #98AE00;
+    font-weight: 600;
+}
+.info {
+    font-family: 'Inika';
+    font-size: 19px;
+    color: #000;
+    font-weight: 500;
+
+}
+.nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: var(--bs-link-color);
+    --bs-nav-link-hover-color: var(--bs-link-hover-color);
+    --bs-nav-link-disabled-color: #6c757d;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.btnHire{
+  height: 73px;
+  width: 196px;
+  border-radius: 30px;
+  background-color: #817FCB;
+  color: #ffffff;
+  border: 1px solid #817FCB;
+  font-family: 'Inika';
+  font-size: 19px;
+  font-weight: 500;
+  /* adds space between buttons */
+  margin-right: 50px;
+}
+.btnChat{
+    height: 73px;
+    width: 196px;
+    border-radius: 30px;
+    background-color: #C4E001;
+    color: #fff;
+    border: 1px solid #C4E001;
+    font-family: 'Inika';
+    font-size: 19px;
+    font-weight: 500;
+
+  }
