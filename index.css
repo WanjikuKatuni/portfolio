@@ -44,7 +44,7 @@
     list-style: none;
 }
 
-.btnHire{
+#btnHire{
   height: 73px;
   width: 196px;
   border-radius: 30px;
@@ -57,7 +57,7 @@
   /* adds space between buttons */
   margin-right: 50px;
 }
-.btnChat{
+#btnChat{
     height: 73px;
     width: 196px;
     border-radius: 30px;
@@ -69,3 +69,11 @@
     font-weight: 500;
 
   }
+
+/* .formDetails {
+    background-color: #EDECFE;
+    font-family: 'Inika';
+    font-size: 19px;
+    color: #000;
+    font-weight: 500;
+} */

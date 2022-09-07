@@ -35,8 +35,78 @@
                 <p class="info">Animation, UX/UI Design, Junior Software Developer</p>
                     <br>
                     <br>
-                <button class="btnHire">Hire Me?</button>               
-                <button class="btnChat">Chat?</button>
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop"id="btnHire">Hire Me?</button>     
+                     <!-- Hire Me modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content" style="font-family: 'Inika'; font-size: 15px;">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Hire Me</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                        <input type="text" name="email" class="form-control" placeholder="Your Email Address..." required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="text" name="phoneNumber" class="form-control" placeholder="Your PhoneNumber..." required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <textarea rows="4" cols="30" name="information" class="form-control" placeholder="Type here information about order..."></textarea>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn" id="btnHire" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn" id="btnChat" data-bs-dismiss="modal">Send Hire Request</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop2" id="btnChat">Chat?</button>
+                    <!-- modal for chat btn -->
+                    <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content" style="font-family: 'Inika'; font-size: 15px;">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Contact Us</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                        <input type="text" name="name" class="form-control" placeholder="Your Name..." required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="text" name="email" class="form-control" placeholder="Your Email Address..." required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="text" name="phoneNumber" class="form-control" placeholder="Your PhoneNumber..." required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="radio" id="radioMale" name="gender" value="male">
+                                        <label for="radioMale">Male</label>
+                                        <br>
+                                        <input type="radio" id="radioFemale" name="gender" value="female">
+                                        <label for="radioFemale">Female</label>
+                                        <br>
+                                        <input type="radio" id="radioNone" name="gender" value="none">
+                                        <label for="radioNone">Prefer Not To Say</label>
+                                        <br>
+                                    </div>
+                                    <div class="mb-3">
+                                        <textarea rows="4" cols="30" name="information" class="form-control" placeholder="Type message here..."></textarea>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn" id="btnHire" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn" id="btnChat" data-bs-dismiss="modal">Contact</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
             </div>
             <div class="col-md-6">
                 <br>
